@@ -1,0 +1,9 @@
+
+# The name of your worker.
+name = "cloudflare"
+
+# The entry point for your worker.
+main = "_worker.js"
+
+# The compatibility date for your worker.
+compatibility_date = "2025-09-11"
