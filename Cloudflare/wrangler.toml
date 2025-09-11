@@ -7,3 +7,7 @@ main = "_worker.js"
 
 # The compatibility date for your worker.
 compatibility_date = "2025-09-11"
+
+kv_namespaces = [
+  { binding = "KV", id = "44ab1fa70f5047459ffe7a56eb595239" },
+]
