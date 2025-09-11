@@ -2,7 +2,7 @@
 import { connect } from "cloudflare:sockets";
 
 let password = 'KzktajVi74qlq3t';
-let proxyIP = 'ProxyIP.JP.CMLiussss.net';
+let proxyIP = 'ProxyIP.US.CMLiussss.net ProxyIP.SG.CMLiussss.net ProxyIP.JP.CMLiussss.net ProxyIP.KR.CMLiussss.net ProxyIP.SE.CMLiussss.net ProxyIP.NL.CMLiussss.net ProxyIP.FI.CMLiussss.net ProxyIP.GB.CMLiussss.net';
 let DNS64Server = '';
 //let sub = '';
 let subConverter = atob('U1VCQVBJLkNNTGl1c3Nzcy5uZXQ=');
@@ -160,7 +160,7 @@ export default {
                 } else {
                     subConverter = subConverter.split("//")[1] || subConverter;
                 }
-                subConfig = 'https://github.com/cmliu/ACL4SSR/blob/main/Clash/config/ACL4SSR_Online_MultiCountry_CF.ini';
+                subConfig = 'https://raw.githubusercontent.com/Zereker/openclash/master/Clash/config/Config.ini';
                 if (url.searchParams.has('sub') && url.searchParams.get('sub') !== '') sub = url.searchParams.get('sub').toLowerCase();
 
                 if (url.searchParams.has('proxyip')) {
